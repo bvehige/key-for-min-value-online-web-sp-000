@@ -8,6 +8,8 @@ def key_for_min_value(name_hash)
     if value > current_min_value 
       current_min_value = value 
       current_min_item = item 
-    else    
+    end
+  end
+  current_min_item
     
 end
